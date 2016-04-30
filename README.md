@@ -1,2 +1,2 @@
 # mtpersonalsite
-My personal and professional site.
+My personal and professional site.  Currently under construction.
