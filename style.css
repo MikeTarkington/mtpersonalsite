@@ -85,12 +85,6 @@ a.navlink:active {
     font-style: bold;
     color:black;
 }
-#topbackimage { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-    margin-top: 44px;
-    padding: 0px 0px 0px 0px; 
-}
 
 #footer {
    height:100px;
@@ -304,9 +298,15 @@ h5 {
 
 /* CSS for Resume stop*/
 
+/* CSS for Home (index.html) start*/
 
 
-
+#topbackimage { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+    margin-top: 44px;
+    padding: 0px 0px 0px 0px; 
+}
 
 #HomeTiles {
     height:490px;
@@ -345,3 +345,7 @@ h5 {
     margin: 0px 0px 0px 0px;
     border-width: 0px;
     border-collapse: collapse;
+}
+
+
+/* CSS for Home (index.html) stop*/
