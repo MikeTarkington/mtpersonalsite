@@ -1,0 +1,92 @@
+/**
+ * Sections
+ *
+ * Some sections to define card content areas.
+ */
+
+.cardflipcontainer {
+    width: 100%;
+    display:block;
+    position: relative;
+    
+
+}
+
+.section {
+    width: 963px;
+    height: 242px;
+    display:block;
+    position: relative;
+    margin:auto
+}
+
+
+
+/**
+ * The cards
+ *
+ * Each card plays home to a front and back. I've set them up as squares here
+ * by using the padding technique, but you may set them up in any dimensions
+ * you like based on your site design.
+ */
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 25%;
+  width: 25%;
+  text-align: center;
+}
+
+
+/* card fronts and backs */
+.card__front,
+.card__back {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    }
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+    
+}
+
+.card__back {
+    
+  background-color: #1300f7;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+/* card text */
+.card__text {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 20px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  line-height: 20px;
+}
+
+/* hover effect */
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
