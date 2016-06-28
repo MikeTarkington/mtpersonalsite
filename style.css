@@ -309,10 +309,10 @@ h5 {
 /* CSS for Home (index.html) start*/
 
 
-#topbackimage { 
+#topbackimage {
    position: relative; 
     justify-content: center;
-    margin: 44px 0px 0px 0px;
+    margin: 44px auto 0px;
     padding: 0px 0px 0px 0px; 
 }
 
