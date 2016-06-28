@@ -26,7 +26,7 @@ body {
     width:200px;
     color: #e6f1ff;
     position:relative;
-    font-family:century gothic;
+    font-family: verdana, sans-serif;
     float:left;
     padding: 0px 0px 5px 15px;
     font-size: 22px;
@@ -43,7 +43,7 @@ body {
     background-color: #000000;
     color: #e6f1ff;
     text-align: center;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     padding: 0px 0px 5px 0px;
     position:relative;
     float:right;
@@ -131,7 +131,7 @@ a.navlink:active {
   margin-bottom: 5px;
     padding-left: 20px;
     border:none;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     font-size: 18px;
     text-align: center;
     font: bold;
@@ -255,7 +255,7 @@ body {align-content: center;
 }
 h4 {
     margin: 0px 0px 0px 0px;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
 }
 h5 {
     color: blue;
@@ -271,7 +271,7 @@ h5 {
     margin: 0px 0px 15px 0px;
 }
 #companies {
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     padding:0px 0px 0px 0px;
     line-height: 0px;
     width:790;
@@ -312,6 +312,7 @@ h5 {
 #topbackimage { 
    position: relative; 
    width: 100%; /* for IE 6 */
+    justify-content: center;
     margin-top: 44px;
     padding: 0px 0px 0px 0px; 
 }
