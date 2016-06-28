@@ -311,7 +311,6 @@ h5 {
 
 #topbackimage { 
    position: relative; 
-   width: 100%; /* for IE 6 */
     justify-content: center;
     margin-top: 44px;
     padding: 0px 0px 0px 0px; 
