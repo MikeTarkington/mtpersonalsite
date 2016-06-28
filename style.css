@@ -312,7 +312,7 @@ h5 {
 #topbackimage { 
    position: relative; 
     justify-content: center;
-    margin-top: 44px;
+    margin-top: 44px 0px 0px auto;
     padding: 0px 0px 0px 0px; 
 }
 
