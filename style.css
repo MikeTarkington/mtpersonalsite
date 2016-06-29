@@ -310,7 +310,7 @@ h5 {
 
 
 #topbackimage {
-    width: 960px;
+    max-width: 960px;
    position: relative;
     justify-content: center;
     margin: 44px auto 0px auto;
@@ -351,7 +351,7 @@ h5 {
 
 .homepgtableimg {
     padding: 0px 0px 0px 0px;
-    margin: -2px 0px -2px 0px;
+    margin: 0px 0px 0px 0px;
     border-width: 0px;
     border-collapse: collapse;
 }
