@@ -23,7 +23,7 @@ body {
     text-align: left;
     display:inline-block;
     height:35px;
-    width:200px;
+    width:auto;
     color: #e6f1ff;
     position:relative;
     font-family: verdana, sans-serif;
@@ -310,7 +310,7 @@ h5 {
 
 
 #topbackimage {
-    width: 100%;
+    width: 960px;
    position: relative;
     justify-content: center;
     margin: 44px auto 0px auto;
