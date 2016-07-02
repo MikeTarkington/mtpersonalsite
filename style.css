@@ -158,8 +158,9 @@ a.navlink:active {
    border-radius:5px;
     margin-left:5px;
     position: relative;
-    font-family: tahoma;
+    font-family: verdana, sans-serif;
     padding-top: 6px;
+    justify-content: center;
 }
 
 
