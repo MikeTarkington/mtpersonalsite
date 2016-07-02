@@ -149,7 +149,6 @@ a.navlink:active {
 .left {
    height: 1826px;
    max-width:210px;
-   border:none;
    background-color:#ffffff;
    display:block;
    float:left;
@@ -162,6 +161,7 @@ a.navlink:active {
     padding-top: 6px;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 
