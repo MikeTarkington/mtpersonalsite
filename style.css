@@ -111,8 +111,8 @@ br {
 
 
 .container {
+    height: 1892px;
     width: 1038px;
-    height: 1884px;
     background-color: #0000c7;
     margin: 0px 3px 0px 3px;
     border: none;
@@ -150,7 +150,7 @@ br {
     margin-bottom: 5px;
 }
 .left {
-   height: 1840px;
+   height: 1848px;
    max-width:210px;
    background-color:#ffffff;
    display:block;
@@ -205,7 +205,7 @@ br {
 }
 
 .center1 {
-   height: 262px;
+   height: 266px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -238,7 +238,7 @@ br {
     position: relative;
 }
 .center3 {
-   height: 935px;
+   height: 939px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -386,16 +386,16 @@ h5 {
 /* CSS for Philosophy start*/
 
 #philosophycontainer {
-    height: 1315px;
+    height: 1335px;
 }
 
 #philosophy {
-    height: 1276px;
+    height: 1296px;
     line-height: 125%;
 }
 
 #philosophyphotos {
-    height: 1270px;
+    height: 1290px;
 }
 
 .philosophyparagraphs {
