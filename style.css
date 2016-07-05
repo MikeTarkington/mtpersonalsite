@@ -101,7 +101,10 @@ a.navlink:active {
     top: 0:
 }
 
-
+br {
+  line-height: 1rem;
+  height: 1rem;
+}
 
 /* CSS for Resume start*/
 
@@ -388,6 +391,7 @@ h5 {
 
 #philosophy {
     height: 1276px;
+    line-height: 125%;
 }
 
 #philosophyphotos {
