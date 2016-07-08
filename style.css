@@ -398,9 +398,9 @@ h5 {
     height: 1290px;
 }
 
-.philosophyparagraphs {
+.bodyparagraphs {
     text-indent:30px;
-}
+}   
 
 .bodytextlinks:link {
     color:blue;
@@ -413,3 +413,27 @@ h5 {
 
 .bodytextlinks:hover {
     color:darkorange;
+}
+
+/* CSS for Philosophy stop*/
+
+/* CSS for Codefolio start*/
+
+#codefoliocontainer {
+    height: 250px;
+    width: 1039px;
+}
+
+#centercodefolio {
+    height: 211px;
+}
+
+#leftcodefolio {
+    height: 206px;
+    max-width:210px;
+    padding: 5px 5px 0px 5px;
+}
+    
+#codefoliopara {
+    line-height: 150%;
+}
