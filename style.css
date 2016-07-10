@@ -420,16 +420,16 @@ h5 {
 /* CSS for Codefolio start*/
 
 #codefoliocontainer {
-    height: 250px;
+    height: 1580px;
     width: 1039px;
 }
 
 #centercodefolio {
-    height: 211px;
+    height: 1541px;
 }
 
 #leftcodefolio {
-    height: 206px;
+    height: 1536px;
     max-width:210px;
     padding: 5px 5px 0px 5px;
 }
