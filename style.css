@@ -170,7 +170,7 @@ br {
 .pdflinks:link {
     font-weight: bold;
     font-size: 14px;
-    color:blue;
+    color:#7142f4;
     text-decoration:none;
     margin-top:10px;
     margin-bottom:10px;
@@ -337,7 +337,7 @@ h5 {
   position: relative;
   max-width: 961px;
   height: 330px;
-  margin: 44px auto 0px auto;
+  margin: 44px auto 3px auto;
   padding: 0px 0px 0px 0px;
 }
 .css-slideshow figure{
@@ -494,6 +494,40 @@ figure:nth-child(4) {
 
 /* CSS for Philosophy stop*/
 
+/* CSS for Backstory start*/
+
+#backstoryycontainer {
+    height: 1335px;
+}
+
+#backstory {
+    height: 1296px;
+    line-height: 125%;
+}
+
+#backstoryyphotos {
+    height: 1290px;
+}
+
+.bodyparagraphs {
+    text-indent:30px;
+}   
+
+.bodytextlinks:link {
+    color:blue;
+    text-decoration:none;
+}
+
+.bodytextlinks:visited {
+    color:blue;
+}
+
+.bodytextlinks:hover {
+    color:darkorange;
+}
+
+/* CSS for Codefolio stop*/
+
 /* CSS for Codefolio start*/
 
 #codefoliocontainer {
@@ -537,3 +571,14 @@ figure:nth-child(4) {
     width: 1039px;
     padding-top: 10px;
 }
+
+/* CSS for Contact stop*/
+
+/* CSS for Hobby start*/
+
+#center-hobby{
+    width: 1010px;
+    margin-left: 5px;
+}
+
+/* CSS for Contact stop*/
