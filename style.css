@@ -23,10 +23,10 @@ body {
     text-align: left;
     display:inline-block;
     height:35px;
-    width:200px;
+    width:auto;
     color: #e6f1ff;
     position:relative;
-    font-family:century gothic;
+    font-family: verdana, sans-serif;
     float:left;
     padding: 0px 0px 5px 15px;
     font-size: 22px;
@@ -43,7 +43,7 @@ body {
     background-color: #000000;
     color: #e6f1ff;
     text-align: center;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     padding: 0px 0px 5px 0px;
     position:relative;
     float:right;
@@ -86,30 +86,121 @@ a.navlink:active {
     color:black;
 }
 
+br {
+  line-height: 1rem;
+  height: 1rem;
+}
+
+/*Footer start*/
+
 #footer {
-   height:100px;
+   height:156px;
     width: 100%;
     display:block;
     clear:both;
     position:relative;
     background-color: #1c1c7d;
     border-top: 3px solid;
+    border-color: #000000;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     left: 0;
     right: 0;
-    top: 0:
+    top: 0;
+    color: #7bb5ff;
+    font-size: 11px;
+    font-family: verdana, sans-serif;
 }
+
+/*----- Genral Classes start ------*/
+ 
+.wrapper,.copyright {
+	padding: 10px;
+	text-align: center;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 3em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 75px;
+	height:75px;
+	line-height: 75px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+	border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+	border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+
+/*Footer stop*/
 
 
 
 /* CSS for Resume start*/
 
-
-
 .container {
+    height: 1892px;
     width: 1038px;
-    height: 1870px;
     background-color: #0000c7;
     margin: 0px 3px 0px 3px;
     border: none;
@@ -131,7 +222,7 @@ a.navlink:active {
   margin-bottom: 5px;
     padding-left: 20px;
     border:none;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     font-size: 18px;
     text-align: center;
     font: bold;
@@ -147,9 +238,8 @@ a.navlink:active {
     margin-bottom: 5px;
 }
 .left {
-   height: 1823px;
-   width:210px;
-   border:none;
+   height: 1848px;
+   max-width:210px;
    background-color:#ffffff;
    display:block;
    float:left;
@@ -158,10 +248,35 @@ a.navlink:active {
    border-radius:5px;
     margin-left:5px;
     position: relative;
-    font-family: tahoma;
+    font-family: verdana, sans-serif;
     padding-top: 6px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
+hr{
+	margin: 0px 20px;
+}
+
+
+.pdflinks:link {
+    font-weight: bold;
+    font-size: 14px;
+    color:#7142f4;
+    text-decoration:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:block;
+}
+
+.pdflinks:visited {
+    color:#7142f4;
+}
+
+.pdflinks:hover {
+    color:darkorange;
+}
 
 .center {
    height: 300px;
@@ -181,7 +296,25 @@ a.navlink:active {
      padding-left: 5px;
     padding-right: 5px;
 }
+
 .center1 {
+   height: 266px;
+   width: 790px;
+   border:none;
+   background-color:#e6f1ff;
+   display:block;
+   float:left;
+   border:3px solid #bbc3d1;
+   border-radius:5px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: tahoma;
+    position: relative;
+}
+
+.center2 {
    height: 170px;
    width: 790px;
    border:none;
@@ -197,24 +330,8 @@ a.navlink:active {
     font-family: tahoma;
     position: relative;
 }
-.center2 {
-   height: 915px;
-   width: 790px;
-   border:none;
-   background-color:#e6f1ff;
-   display:block;
-   float:left;
-   border:3px solid #bbc3d1;
-   border-radius:5px;
-    margin-bottom: 5px;
-    text-align: left;
-    padding-left: 5px;
-    padding-right:5px;
-    font-family: tahoma;
-    position: relative;
-}
 .center3 {
-   height: 140px;
+   height: 939px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -230,7 +347,7 @@ a.navlink:active {
     position: relative;
 }
 .center4 {
-   height: 260px;
+   height: 135px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -241,7 +358,7 @@ a.navlink:active {
     margin-bottom: 5px;
     text-align: left;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right:5px;
     font-family: tahoma;
     position: relative;
 }
@@ -255,7 +372,7 @@ body {align-content: center;
 }
 h4 {
     margin: 0px 0px 0px 0px;
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
 }
 h5 {
     color: blue;
@@ -271,7 +388,7 @@ h5 {
     margin: 0px 0px 15px 0px;
 }
 #companies {
-    font-family: century gothic;
+    font-family: verdana, sans-serif;
     padding:0px 0px 0px 0px;
     line-height: 0px;
     width:790;
@@ -309,11 +426,82 @@ h5 {
 /* CSS for Home (index.html) start*/
 
 
-#topbackimage { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-    margin-top: 44px;
-    padding: 0px 0px 0px 0px; 
+.css-slideshow{
+  position: relative;
+  max-width: 961px;
+  height: 330px;
+  margin: 44px auto 3px auto;
+  padding: 0px 0px 0px 0px;
+}
+.css-slideshow figure{
+  margin:0px auto 0px auto;
+  max-width: 961px;
+  height: 330px;
+  background: #000;
+  position: absolute;
+
+}
+.css-slideshow img{
+ 
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+  margin-top: 290px;
+    font-family: tahoma, sans-sarif;
+    font-size: 14px;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: tahoma, sans-sarif;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 20s 15s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 20s 10s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 20s 5s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 20s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #HomeTiles {
@@ -350,10 +538,152 @@ h5 {
 
 .homepgtableimg {
     padding: 0px 0px 0px 0px;
-    margin: -2px 0px -2px 0px;
+    margin: 0x 0px 0px 0px;
     border-width: 0px;
     border-collapse: collapse;
 }
 
+#quotes {
+    max-width: 961px;
+   position: relative;
+    justify-content: center;
+    margin: 2px auto 0px auto;
+    padding: 0px 0px 0px 0px; 
+}
 
 /* CSS for Home (index.html) stop*/
+
+/* CSS for Philosophy start*/
+
+#philosophycontainer {
+    height: 1435px;
+}
+
+#philosophy {
+    height: 1396px;
+    line-height: 125%;
+}
+
+#philosophyphotos {
+    height: 1390px;
+}
+
+.bodyparagraphs {
+    text-indent:30px;
+}   
+
+.bodytextlinks:link {
+    color:blue;
+    text-decoration:none;
+}
+
+.bodytextlinks:visited {
+    color:blue;
+}
+
+.bodytextlinks:hover {
+    color:darkorange;
+}
+
+/* CSS for Philosophy stop*/
+
+/* CSS for Backstory start*/
+
+#backstory-container {
+    height: 1188px;
+}
+
+#backstory {
+    height: 1296px;
+    line-height: 125%;
+}
+
+#backstory{
+    height: 1150px;
+}
+
+#backstory-left{
+    height: 1144px;
+}
+
+#backstory-left{
+    height: 1144px;
+}
+
+.bodyparagraphs {
+    text-indent:30px;
+}   
+
+/* CSS for Backctory stop*/
+
+/* CSS for Codefolio start*/
+
+#codefoliocontainer {
+    height: 1700px;
+    width: 1039px;
+}
+
+#centercodefolio {
+    height: 1660px;
+}
+
+#leftcodefolio {
+    height: 1655px;
+    max-width:210px;
+    padding: 5px 5px 0px 5px;
+    background-color:#e6f1ff;
+}
+    
+#codefoliopara {
+    line-height: 150%;
+}
+
+/* CSS for Codefolio stop*/
+
+/* CSS for Contact start*/
+
+#leftcontact {
+    height: 205px;
+    max-width:210px;
+    padding: 5px 5px 0px 5px;
+}
+    
+#centercontact {
+    height: 210px;
+    justify-content: center;
+    text-align: center;
+}
+
+#containercontact {
+    height: 225px;
+    width: 1039px;
+    padding-top: 10px;
+}
+
+/* CSS for Contact stop*/
+
+/* CSS for Hobby start*/
+
+#hobby-container{
+    height: 920px;
+}
+
+#center-hobby{
+    width: 1010px;
+    height: 880px;
+    margin-left: 5px;
+}
+
+.hobby-photo-table{
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.hobby-photo-cell{
+    max-width: 330px;
+    max-height: 330px;
+    background-color: #ffffff;
+    text-align: center;
+}
+    
+/* CSS for Contact stop*/
