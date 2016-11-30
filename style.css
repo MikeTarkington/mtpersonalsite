@@ -271,7 +271,7 @@ hr{
 }
 
 .pdflinks:visited {
-    color:blue;
+    color:#7142f4;
 }
 
 .pdflinks:hover {
@@ -619,16 +619,16 @@ figure:nth-child(4) {
 /* CSS for Codefolio start*/
 
 #codefoliocontainer {
-    height: 1580px;
+    height: 1700px;
     width: 1039px;
 }
 
 #centercodefolio {
-    height: 1541px;
+    height: 1660px;
 }
 
 #leftcodefolio {
-    height: 1536px;
+    height: 1655px;
     max-width:210px;
     padding: 5px 5px 0px 5px;
     background-color:#e6f1ff;
@@ -665,12 +665,12 @@ figure:nth-child(4) {
 /* CSS for Hobby start*/
 
 #hobby-container{
-    height: 1060px;
+    height: 920px;
 }
 
 #center-hobby{
     width: 1010px;
-    height: 1010px;
+    height: 880px;
     margin-left: 5px;
 }
 
