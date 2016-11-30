@@ -60,7 +60,7 @@
 
 .card__back {
     
-  background-color: #1300f7;
+  background-color: #80e2ff;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
@@ -74,10 +74,12 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  height: 20px;
-  color: #fff;
-  font-family: "Roboto Slab", serif;
-  line-height: 20px;
+  height: 30px;
+  color: #000000;
+  font-family: tahoma, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  line-height: 30px;
 }
 
 /* hover effect */
