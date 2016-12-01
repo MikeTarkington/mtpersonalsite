@@ -199,7 +199,7 @@ br {
 /* CSS for Resume start*/
 
 .container {
-    height: 1892px;
+    height: 1902px;
     width: 1038px;
     background-color: #0000c7;
     margin: 0px 3px 0px 3px;
@@ -238,7 +238,7 @@ br {
     margin-bottom: 5px;
 }
 .left {
-   height: 1848px;
+   height: 1858px;
    max-width:210px;
    background-color:#ffffff;
    display:block;
@@ -347,7 +347,7 @@ hr{
     position: relative;
 }
 .center4 {
-   height: 135px;
+   height: 145px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
