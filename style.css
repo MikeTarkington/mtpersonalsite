@@ -331,7 +331,7 @@ hr{
     position: relative;
 }
 .center3 {
-   height: 939px;
+   height: 949px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -347,7 +347,7 @@ hr{
     position: relative;
 }
 .center4 {
-   height: 145px;
+   height: 135px;
    width: 790px;
    border:none;
    background-color:#e6f1ff;
@@ -547,6 +547,7 @@ figure:nth-child(4) {
     max-width: 961px;
     position: relative;
     justify-content: center;
+    text-align: center;
     margin: 2px auto;
     padding: 0px 0px 0px 0px;
     background-color: #0000c7;
@@ -678,12 +679,12 @@ figure:nth-child(4) {
 /* CSS for Hobby start*/
 
 #hobby-container{
-    height: 920px;
+    height: 940px;
 }
 
 #center-hobby{
     width: 1010px;
-    height: 880px;
+    height: 900px;
     margin-left: 5px;
 }
 
