@@ -1,7 +1,255 @@
 body {
     background-image: url("http://wallpaper-gallery.net/images/adventure-time-wallpaper/adventure-time-wallpaper-19.jpg");
-    background-color: #bff0ff;
+    background-color: #baf5ff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+}
+
+.pagetitle {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Rock Salt', cursive;
+    max-width: 700px;
+    background: rgba(186, 245, 255, 0.5);
+    border-radius: 5px;  
+    text-align: center;
+    vertical-align: middle;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+
+
+
+nav {
+    display: block;
+    font-size: 30px;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    background-color: #bff0ff;
+    max-width: 580px;
+    background: rgba(186, 245, 255, 0.8);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px blue;
+}
+
+.navtable {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: orange;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    background: rgba(186, 245, 255, 0.75);
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px 10px 10px 10px;
+}
+
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    text-align: center;
+    background: rgba(186, 245, 255, 0.75);
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+}
+
+.footpara{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .pagetitle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    header img {
+        max-width: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pagetitle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/** site wide end **/
+
+/* home page */
+
+#homepara {
+    font-size: 30px;
+}
+
+/* event page */
+
+#eventpara {
+    font-size: 25px;
+}
+
+.form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background: rgba(186, 245, 255, 0.8);
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    border: solid 3px orange;
+    padding: 20px 10px 20px 10px;
+}
+
+/* swords */
+
+#mainswords {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 960px;
+    background: rgba(186, 245, 255, 0.8);
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border: solid 3px orange;
+    padding: 20px 10px 20px 10px;
+}
+
+.swordsul {
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 218, 127, 0.8);
+    border-radius: 5px;
+    padding: 10px 20px 10px 30px;
+    line-height: 1.5;
+}
+
+.swordsul li {
+    margin-bottom: 10px;
+}
+
+#swordbox {
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    display: block;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 218, 127, 0.8);
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    line-height: 1.5;
+}
+
+#swordbox table {
+    font-size: 60px;
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#swordbox h2 {
+    font-size: 25px;
+}
+
+#mainswords p {
+    font-size: 20px;
+}
+
+/* about page */
+
+#mainabout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 960px;
+    background: rgba(186, 245, 255, 0.8);
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border: solid 3px orange;
+    padding: 20px 10px 20px 10px;
+}
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 900px;
+    max-height: 500px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background: rgba(255, 218, 127, 0.8);
+    border-radius: 5px;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 890px;
+    border-radius: 5px;
+}
+
+figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    text-align: center;
+    background: rgba(255, 218, 127, 0.8);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1020px) {
+    figure img {
+        max-width: 550px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    figure img {
+        max-width: 400px;  
+    }
 }
